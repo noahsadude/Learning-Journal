@@ -10,7 +10,7 @@ You cannot, however, expect a what-you-see-is-what-you-get Word style experience
 
 ## What's up with GitHub Pages?
 
-GitHub pages is a way to build out a snazzy public face for you, your projects, or anything you're passionate about. Using GitHub Pages, you can make yourself look good and explain what the heck it is you've been doing to all those friends of yours who aren't particularly interested in investing mind-numbing numbers of hours on code stuff and wonder why you aren't hanging out with them much anymore. It's because I'm excercising mah brain case bruh. Time to get \#brainswole 
+GitHub pages is a way to build out a snazzy public face for you, your projects, or anything you're passionate about. Using GitHub Pages, you can make yourself look good and explain what the heck it is you've been doing to all those friends of yours who aren't particularly interested in investing mind-numbing numbers of hours on code stuff and wonder why you aren't hanging out with them much anymore. It's because I'm excercising mah brain space bruh. Time to get \#brainswole 
 
 ### In the words of our fearless leader:
 ### \"Cool?"
