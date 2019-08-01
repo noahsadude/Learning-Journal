@@ -13,4 +13,7 @@
 --Note, you can select both type and class via [type].[class]. p.hero {} targets only <p> elements whose class is hero.
 -ID selectors. Match an element whose ID matches the value. #introduction {}
 -Child selectors. Match elements that are children of elements. li>a {}
--Descendant selectors. 
+-Descendant selectors.
+
+`margin: auto` is shorthand for `margin: 0 auto`
+- add spaces to 
