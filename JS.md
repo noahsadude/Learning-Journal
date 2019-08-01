@@ -2,51 +2,51 @@
 
 ### A seperation of concerns
 
--HTML - content
+- HTML - content
 
--CSS - presentation
+- CSS - presentation
 
--JS - behavior
+- JS - behavior
 
 `document.write('Good afternoon!');`
 
--document = the document oject. This represents the whole web page.
+- document = the document oject. This represents the whole web page.
 
 - . = the member operator. This is how you specify methods and properties, known as members of that object.
 
--write = a method within the document object.
+- write = a method within the document object.
 
--'Good afternoon!' = a parameter within the write method.
+- 'Good afternoon!' = a parameter within the write method.
 
 - ; = closing the argument.
 
 ### Data Types
 
--strings = "some text" or 'some text'
+- strings = "some text" or 'some text'
 
--number = 40 or 100
+- number = 40 or 100
 
--variable = way to store data. Described by var. For instance, var someWord = 'cool';
+- variable = way to store data. Described by var. For instance, var someWord = 'cool';
 
--boolean = TRUE or FALSE. Period.
+- boolean = TRUE or FALSE. Period.
 
--function
+- function
 
--array
+- array
 
--undefined
+- undefined
 
 ### Operators
 
 Example: `10 + '10';`
 
--An example of type coercion. Will output `1010` On all ifs, force strong evaluation by using `===`.
+- An example of type coercion. Will output `1010` On all ifs, force strong evaluation by using `===`.
 
--In 301, we're required to use `use strict;` which means if we don't use `===`, code won't run.
+- In 301, we're required to use `use strict;` which means if we don't use `===`, code won't run.
 
 `'some ' + 'cool' + 'thing'`
 
--An example of concatenation
+- An example of concatenation
 
 `var first = 'noah';`
 
@@ -54,4 +54,4 @@ Example: `10 + '10';`
 
 `console.log(first + ' ' + last);`
 
--An example of variable based concatenation
+- An example of variable based concatenation
