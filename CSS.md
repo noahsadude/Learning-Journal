@@ -16,4 +16,9 @@
 -Descendant selectors.
 
 `margin: auto` is shorthand for `margin: 0 auto`
-- add spaces to 
+
+### Animations
+-That's a thing in CSS3!
+
+### General notes
+-CSS code should be written from bottom left to top right.
