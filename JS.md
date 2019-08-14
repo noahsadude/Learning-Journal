@@ -18,20 +18,32 @@
 -variable = way to store data. Described by var. For instance, var someWord = 'cool';
 -boolean = TRUE or FALSE. Period.
 -functions - encapsulate code for reuse.
--arrays - 
--objects -
+-arrays
+-objects
 -undefined
 
 ### Operators
-Example: `10 + '10';`
--An example of type coercion. Will output `1010` On all ifs, force strong evaluation by using `===`.
--In 301, we're required to use `use strict;` which means if we don't use `===`, code won't run.
-`'some ' + 'cool' + 'thing'`
--An example of concatenation
-`var first = 'noah';`
-`var last = 'rhodes';`
-`console.log(first + ' ' + last);`
--An example of variable based concatenation
+- `=` the assignment operator
+- `+` addition. Can also be used in strings to concatenate values.
+- `-` subtraction.
+- `/` division.
+- `*` multiplication.
+- `++` increment. Adds one to the current variable, e.g. i++
+- `--` decrement. Subtracts one to the current value, e.g. i--
+- `%` modulus. divides two values and returns the remainder. 10 % 3 = 1, as 10/3 = 3 remainder 1.
+*Order of operations applies*
+
+### Variables
+-Declared by using `var`
+-Can be declared in groups, e.g `var a, b, c`
+
+#### 6 rules for assigning variable names
+1. Must begin with a letter, dollar sign or underscore. Variables cannot start with a number.
+2. Variable names cannot use periods, dashes (-), as these are operators.
+3. Variables cannot use reserved words. See the full list of reserved words here: http://javascriptbook.com/extras/keywords-and-reserved-words/
+4. Variables are case sensitive. However, it is bad practice to create two variables with the same name for different cases.
+5. Try to be descriptive but brief in your variable names. firstName is obviously a variable meant for a first name, ect.
+6. camelCase is your friend. It will make sure you don't screw things up.
 
 ### Arrays
 -Arrays are lists. They can contain literally any other data type.
@@ -39,12 +51,15 @@ Example: `10 + '10';`
 
 -you can pull data out of the above through `people[item position]`
 
-`for(var i=0; i<people.length; i++){
+for(var i=0; i<people.length; i++){
     console.log (people[i]);
 }
+The above will output every person in the people array
+
+
 
 ### Objects
-```
+
 var person = {
     name: 'brian',
     age: 34,
@@ -99,3 +114,4 @@ var person = {
 console.log('rosalie\'s favorite movie: ', person.kids[2].favMovies[1]);
 //This will return rosalie
 ```
+
