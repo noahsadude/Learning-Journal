@@ -56,6 +56,11 @@ for(var i=0; i<people.length; i++){
 }
 The above will output every person in the people array
 
+### JS control flow
+-If/else statements
+-While loops - until a condition is completed, do a thing
+-For loops - for a set number of times, do a thing
+
 
 
 ### Objects
