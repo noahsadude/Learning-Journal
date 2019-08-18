@@ -61,6 +61,37 @@ The above will output every person in the people array
 -While loops - until a condition is completed, do a thing
 -For loops - for a set number of times, do a thing
 
+### Functions
+Example: `function getArea(width,height){return width*height;}`
+-Gives you the ability to build pre-packaged sections of code and deploy them anywhere you need to.
+--Calling (or "invoking", which seems vaguely like something out of a spellbook) a function is as simple as:
+-- `getArea(1*2);`
+-- in this case, we would expect 1*2 or 2 out of the function.
+-Functions can be given parameters - variables that are decleared inside the () for use inside the function.
+-Functions can output multiple values - you just need to store them in a data type that can handle multiple key-value pairs, such as objects or arrays.
+Example function that outputs two different values, stored as an array:
+`
+function getSize(width,height,depth){
+  var area = width*height;
+  var volume = width*height*depth;
+  var sizes = [area,volume];
+  return sizes;
+}
+console.log(getSize(3,2,3)[0]);
+console.log(getSize(3,2,3)[1]);
+`
+#### Immediately invoked function expressions
+-Not given a name, but output can be assigned as a variable.
+`var area = (function(){`
+`  var width = 3;`
+`  var height = 2;`
+`  return width * height;`
+`}())`
+
+-Used to help with scope issues. 
+#### Scope
+Global scope - any variable declared globally (that is, outside of a function) can conflict with any other variable if named the same.
+Local scope - within a function, any declared variable will not conflict with a global variable. 
 
 
 ### Objects
